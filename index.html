@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alfredo Godoy · desarrollo web</title>
+  <meta name="description" content="Portafolio de Alfredo Godoy, Evaluacion numero 1.">
+
+  <link href="https://fonts.googleapis.com/css2?family=Michroma&family=Barlow+Semi+Condensed:wght@400;600&display=swap" rel="stylesheet">
+  para sacar otros estilo de letras con un api de google de css
+
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <a class="skip" href="#misiones">Saltar al contenido</a>
+
+  <header class="site-header">
+    <a class="logo" href="#inicio" aria-label="Ana Vidal, inicio">AF</a>
+    <p class="status"><span class="dot" aria-hidden="true"></span>Sistema en línea</p>
+    <nav class="nav" aria-label="Principal">
+      <a href="#misiones">Misiones</a>
+      <a href="#perfil">Perfil</a>
+      <a href="#historial">Historial</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="hero" id="inicio">
+      <div class="hero-main">
+        <h1>
+          <span class="line">Alfredo</span>
+          <span class="line">Godoy</span>
+        </h1>
+        <p class="hero-role">Diseñadora y desarrolladora web</p>
+        <p class="hero-lead">
+          
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-solid" href="#misiones">Ver proyectos</a>
+          <a class="btn btn-line" href="#contacto">Escribirme</a>
+        </div>
+
+        <div class="meter">
+          <p class="meter-label">Disponibilidad para nuevos proyectos</p>
+          <div class="meter-bar" role="img" aria-label="Disponibilidad alta, cuatro de cinco"></div>
+        </div>
+      </div>
+
+      <div class="radar" aria-hidden="true">
+        <div class="sweep"></div>
+        <span class="blip b1"></span>
+        <span class="blip b2"></span>
+        <span class="blip b3"></span>
+      </div>
+    </section>
+
+    <section class="section" id="misiones">
+      <div class="wrap">
+        <h2>Misiones</h2>
+        <p class="section-intro">Una selección de proyectos recientes. Usa los filtros para ver cada tipo.</p>
+
+        <input class="filter-input" type="radio" name="filtro" id="f-todo" checked>
+        <input class="filter-input" type="radio" name="filtro" id="f-web">
+        <input class="filter-input" type="radio" name="filtro" id="f-marca">
+        <input class="filter-input" type="radio" name="filtro" id="f-app">
+
+        <div class="filters" role="group" aria-label="Filtrar proyectos por tipo">
+          <label for="f-todo">Todos</label>
+          <label for="f-web">Sitios web</label>
+          <label for="f-marca">Identidad</label>
+          <label for="f-app">Aplicaciones</label>
+        </div>
+
+        <div class="grid">
+
+          <article class="card web">
+            <div class="cover"><img src="Images/4k-master-chief-halo-infinite-1ndq4vdd65p3rfr4.jpg" alt="Captura del proyecto 1"></div>
+            <div class="card-body">
+              <h3>Nombre del proyecto 1</h3>
+              <p>Escribe aquí una descripción breve de lo que hiciste.</p>
+              <p class="tags">Tag para ponerle que cosas usaste en caso de un trabajo</p>
+              <a class="card-link" href="#">Enlace</a>
+            </div>
+          </article>
+
+          <article class="card marca">
+            <div class="cover"><img src="Images/cool-halo-ftqql6j3g6yl1d0k.jpg" alt="Captura del proyecto 2"></div>
+            <div class="card-body">
+              <h3>Nombre del proyecto 2</h3>
+              <p>Escribe aquí una descripción breve de lo que hiciste.</p>
+              <p class="tags">Tag para ponerle que cosas usaste en caso de un trabajo</p>
+              <a class="card-link" href="#">Enlace</a>
+            </div>
+          </article>
+
+          <article class="card app">
+            <div class="cover"><img src="Images/wp7017706.jpg" alt="Captura del proyecto 3"></div>
+            <div class="card-body">
+              <h3>Nombre del proyecto 3</h3>
+              <p>Escribe aquí una descripción breve de lo que hiciste.</p>
+              <p class="tags">Tag para ponerle que cosas usaste en caso de un trabajo</p>
+              <a class="card-link" href="#">Enlace</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-tint" id="perfil">
+      <div class="wrap about">
+        <h2>Perfil</h2>
+        <div class="about-text">
+          <p>
+          breve descripcion tuya de como eres o quien eres
+          </p>
+          <p>
+            lo mismo breve
+          </p>
+        </div>
+
+        <dl class="skills">
+          <div>
+            <dt>Diseño</dt>
+            <dd>Diseñador de fondos html</dd>
+          </div>
+          <div>
+            <dt>Desarrollo</dt>
+            <dd>HTML, CSS y accesibilidad</dd>
+          </div>
+          <div>
+            <dt>Herramientas</dt>
+            <dd>GitHub</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="section" id="historial">
+      <div class="wrap">
+        <h2>Historial</h2>
+        <ol class="timeline">
+          <li>
+            <span class="year">2024 – hoy</span>
+            <div>
+              <h3>Freelance</h3>
+              <p>Me gusta hacer modelados 3d, escenarios historicos y demas</p>
+            </div>
+          </li>
+    </section>
+
+    <section class="section contact" id="contacto">
+      <div class="wrap contact-grid">
+        <div>
+          <h2>Contacto</h2>
+          <p class="contact-lead">
+           Pa los clientes si quieres poner algo para que te manden mensajes.
+          </p>
+          <p class="contact-mail">
+            <a href="#">hola(pon tu correo aca)</a>
+            Arriba debes poner tu correo
+          </p>
+        </div>
+
+        <form action="mailto:hola@anavidal.com" method="post" enctype="text/plain">
+          <label for="nombre">Nombre</label>
+          <input id="nombre" name="nombre" type="text" autocomplete="name" required>
+
+          <label for="correo">Correo</label>
+          <input id="correo" name="correo" type="email" autocomplete="email" required>
+
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+          <button class="btn btn-solid" type="submit">Enviar mensaje</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>@Alfredo Godoy</p>
+    <p><a href="#inicio">Volver arriba</a></p>
+  </footer>
+
+</body>
+</html>
